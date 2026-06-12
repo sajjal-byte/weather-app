@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 
-const API_KEY = "7affe267acee12e4740c182f471a68ea";
 
 const weatherIcons = {
   Clear: "☀️", Clouds: "☁️", Rain: "🌧️", Drizzle: "🌦️",
