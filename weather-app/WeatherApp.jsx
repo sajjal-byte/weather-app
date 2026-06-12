@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
 const weatherIcons = {
   Clear: "☀️", Clouds: "☁️", Rain: "🌧️", Drizzle: "🌦️",
